@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+
+body{
+    font-family: Hind, sans-serif;
+}
+
+.navbar a{
+    color: #fff;
+    font-weight: 800;
+    margin: 1.5em 0.7em;
+    font-size: 0.85em;
+    scroll-behavior: smooth;
+}
+
+.navbar a:hover{
+    background: none !important;
+    color: #fff;
+}
+
+.navbar-toggle {
+    text-align: center;
+    padding-top: 17px;
+}
+  
+.navbar-toggle:hover,
+.navbar-toggle:focus {
+    background-color:none;
+    
+}
+  
+.navbar-toggle .icon-bar {
+    background-color: #444;
+}
+
+.main{
+    background-image:linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('images/image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+@media(max-width:767px){
+    .navbar{
+        background-color: #FCFCFC;
+        transition: none;
+        box-shadow: 0 1px #FFFFFF;
+    }
+    
+    .navbar a{
+        color: #444;
+    }
+
+    .navbar-brand{
+        display: none;
+    }
+}
+
+/* block */
+
+.block {
+    padding: 220px 0 130px
+}
+
+.block .block-title {
+    font-size: 70px;
+    color: #fff;
+    line-height: 1
+}
+
+@media (max-width: 480px) {
+    .block .block-title {
+        font-size:50px
+    }
+}
+
+.block .block-text {
+    font-size: 25px;
+    color: #fff;
+}
+
+.block .block-divider {
+    border-bottom: 1px solid rgba(255,255,255,.4);
+    padding-bottom: 20px;
+    margin-bottom: 35px
+}
+
+.social-icons {
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 50%;
+    padding: 11px;
+    transition-duration: .6s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1)
+}
+
+.social-icons:hover {
+    color: #515769;
+    background: #fff;
+    text-decoration: none;
+    transition-duration: .6s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.7,1,.7,1)
+}
+
+/* progress intro */
+
+.intro{
+    color: #888;
+    padding: 7vh;
+    background-color: #FCFCFC;
+    padding-top: 14vh;
+}
+
+.intro h2{
+    color: #444;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .text-right{
+        text-align: left !important;
+    }
+
+    .intro{
+        padding: 4vh;
+        height: 100vh;
+        padding-top: 7vh;
+    }
+    
+}
+
+.skills-bar-container {
+    width: 40%;
+    min-width: 200px;
+    list-style: none;
+  }
+  .skills-bar-container li {
+    position: relative;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  .skills-bar-container li .progressbar-title {
+    color: #666;
+  }
+  .skills-bar-container li .progressbar-title p {
+    display: inline-block;
+    font-weight: 600;
+  }
+
+  .skills-bar-container li .bar-container {
+    background: #555;
+    position: relative;
+    width: 100%;
+    height: 3px;
+    margin-top: 5px;
+    display: block;
+    border-radius: 5px;
+  }
+  .skills-bar-container li .bar-container .progressbar {
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    border-radius: 5px;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+  }
+  #progress-html {
+    animation-name: progress-html;
+    animation-delay: 3s;
+  }
+  #progress-css {
+    animation-name: progress-css;
+    animation-delay: 3s;
+  }
+  #progress-javascript {
+    animation-name: progress-javascript;
+    animation-delay: 3s;
+  }
+
+  #progress-angular {
+    animation-name: progress-angular;
+    animation-delay: 3s;
+  }
+    
+  #progress-java {
+    animation-name: progress-java;
+    animation-delay: 3s;
+  }
+  #progress-php {
+    animation-name: progress-php;
+    animation-delay: 3s;
+  }
+  #progress-wordpress {
+    animation-name: progress-wordpress;
+    animation-delay: 3s;
+  }
+  #progress-mysql {
+    animation-name: progress-mysql;
+    animation-delay: 3s;
+  }
+
+  @keyframes progress-java {
+    0% {width: 0%;}
+    100% {width:60%;}
+  }
+  @keyframes progress-php {
+    0% {width: 0%;}
+    100% {width: 35%;}
+  }
+  @keyframes progress-wordpress {
+    0% {width: 0%;}
+    100% {width: 60%;}
+  }
+  @keyframes progress-mysql {
+    0% {width: 0%;}
+    100% {width: 70%;}
+  }
+
+  .progressblue {
+    background-color: #358ed1;
+  }
+
+  @keyframes progress-html {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 90%;
+    }
+  }
+  @keyframes progress-css {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 80%;
+    }
+  }
+  @keyframes progress-javascript {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 70%;
+    }
+  }
+
+  @keyframes progress-angular {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 65%;
+    }
+  }
+  
+/* Work */
+
+.work {
+    color: #888;
+    padding: 7vh;
+    background-color: #FCFCFC;
+    padding-top: 20vh;
+    min-height: 100vh
+  }
+
+  .work h2{
+    color: #444;
+    font-weight: 600;
+  }
+
+.porti{
+    padding-left: 15vw;
+}
+
+.port{
+padding: 0 !important;
+}
+
+  @media(max-width:768px){
+    .text-right{
+        text-align: left !important;
+    }
+
+    .work{
+        padding: 4vh;
+        min-height: 90vh;
+        padding-top: 7vh;
+    }
+
+    .porti{
+        margin-left: 15vw;
+    }
+    
+}
+
+/* contact */
+@media(max-width:768px){
+    #contact{
+        color: #888;
+        background-color: #FCFCFC;
+        padding-bottom: 20vh;
+    }
+}
+#contact{
+    color: #888;
+    padding: 7vh;
+    background-color: #FCFCFC;
+    padding-top: 15vh;
+    min-height: 70vh;
+}
+
+#contact h2{
+    color: #444;
+    font-weight: 600;
+}
+
+.info{
+    padding-top: 5vh;
+    margin-right:10vw; 
+}
+
+.info a{
+    color: #666;
+    text-decoration: none !important;
+}
+
+.info a:hover{
+    color: #666 !important;
+    text-decoration: none !important;
+}
+
+.md-margin-b-30 {
+    margin-bottom: 30px!important
+}
+
+/* footer */
+
+.w3-half > a {
+    text-decoration: none !important;
+    color: #FCFCFC !important;
+}
+
+i.fa {
+    padding-top: .2em;
+    padding-left: .5em;
+    padding-right: .5em;
+    transition: color 1s;
+}
+  
+.fa-graduation-cap:hover {
+    color: #80379b;
+}
+
+.fa-instagram:hover {
+    color: #04a;
+}
+
+.fa-github:hover {
+    color: #4af;
+}
+
+.fa-linkedin:hover {
+    color: rgb(17, 81, 141);
+}
+
+/* Universal */
+
+@media(max-width: 768px){
+    .gone{
+        display: none;
+    }
+}
