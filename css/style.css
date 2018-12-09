@@ -273,6 +273,11 @@ body{
     min-height: 100vh
   }
 
+  .work a{
+    color: #888;
+    text-decoration: none;
+  }
+  
   .work h2{
     color: #444;
     font-weight: 600;
