@@ -274,10 +274,10 @@ body{
   }
 
   .work a{
-    color: #888;
-    text-decoration: none;
+    color: #888 !important;
+    text-decoration: none !important;
   }
-  
+
   .work h2{
     color: #444;
     font-weight: 600;
