@@ -199,8 +199,8 @@ body{
     animation-name: progress-php;
     animation-delay: 3s;
   }
-  #progress-wordpress {
-    animation-name: progress-wordpress;
+  #progress-C# {
+    animation-name: progress-C;
     animation-delay: 3s;
   }
   #progress-mysql {
@@ -212,14 +212,17 @@ body{
     0% {width: 0%;}
     100% {width:60%;}
   }
+
   @keyframes progress-php {
     0% {width: 0%;}
     100% {width: 35%;}
   }
-  @keyframes progress-wordpress {
+
+  @keyframes progress-C {
     0% {width: 0%;}
-    100% {width: 60%;}
+    100% {width: 75%;}
   }
+
   @keyframes progress-mysql {
     0% {width: 0%;}
     100% {width: 70%;}
