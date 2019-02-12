@@ -31,7 +31,7 @@ var lang = {
     "angular": "65%",
     "java": "60%",
     "php": "30%",
-    "wordpress": "60%",
+    "C": "70%",
     "mysql": "70%"
   };
   
