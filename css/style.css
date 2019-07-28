@@ -207,6 +207,22 @@ body{
     animation-name: progress-mysql;
     animation-delay: 3s;
   }
+  #progress-xaml {
+    animation-name: progress-xaml;
+    animation-delay: 3s;
+  }
+  #progress-wpf {
+    animation-name: progress-wpf;
+    animation-delay: 3s;
+  }
+  #progress-api {
+    animation-name: progress-api;
+    animation-delay: 3s;
+  }
+  #progress-android {
+    animation-name: progress-android;
+    animation-delay: 3s;
+  }
 
   @keyframes progress-java {
     0% {width: 0%;}
@@ -226,6 +242,26 @@ body{
   @keyframes progress-mysql {
     0% {width: 0%;}
     100% {width: 70%;}
+  }
+
+@keyframes progress-xaml {
+    0% {width: 0%;}
+    100% {width: 90%;}
+  }
+
+@keyframes progress-wpf {
+    0% {width: 0%;}
+    100% {width: 90%;}
+  }
+
+@keyframes progress-api {
+    0% {width: 0%;}
+    100% {width: 85%;}
+  }
+
+@keyframes progress-android {
+    0% {width: 0%;}
+    100% {width: 60%;}
   }
 
   .progressblue {
