@@ -32,7 +32,11 @@ var lang = {
     "java": "60%",
     "php": "30%",
     "C": "70%",
-    "mysql": "70%"
+    "mysql": "70%",
+    "xaml": "90%",
+    "wpf": "90%",
+    "api": "85%",
+    "android" : "60%"
   };
   
   var multiply = 4;
